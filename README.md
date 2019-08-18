@@ -1,2 +1,2 @@
-# Pichayuth_Site
+# Pichayuth's Site
 My personal website
