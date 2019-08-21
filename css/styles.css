@@ -27,12 +27,12 @@ h3 {
 }
 
 h4 {
-    color: #66BFBF;
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 
 h6 {
-    color: #11999E;
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -121,6 +121,15 @@ a:hover {
     text-align: center;
 }
 
+.job-position {
+    font-weight: bold;
+}
+
+.job-company {
+    color: #66BFBF;
+    font-size: 1.3rem;
+}
+
 .skill-row {
     display: flex;
     width: 50%;
@@ -147,4 +156,41 @@ a:hover {
 
 .skill-img-right {
     float: right;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .software-engineer {
+        width: 40%;
+    }
+
+    .top-cloud {
+        display: none;
+    }
+
+    .bottom-cloud {
+        display: none;
+    }
+
+    .self-description {
+        width: 70%;
+    }
+
+    .skill-row {
+        width: 80%;
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+
+    .skill-img {
+        width: 25%;
+        height: 25%;
+        justify-content: space-around;
+        margin: 0 auto 20px;
+    }
+
+    .skill-row-description {
+        text-align: left;
+        border-left: none;
+    }
 }
