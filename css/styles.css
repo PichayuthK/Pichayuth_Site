@@ -7,14 +7,15 @@ body {
 
 h1 {
     color: #66BFBF;
-    font-size: 5.625rem;
+    font-size: 3rem;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
-    color: #66BFBF;
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
+    /* font-size: 2.5rem; */
     font-size: 2.5rem;
     font-weight: normal;
     padding-bottom: 10px;
@@ -23,16 +24,25 @@ h2 {
 h3 {
     color: #11999E;
     font-weight: bold;
+    font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 h4 {
+    color: #66BFBF;
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
     color: #11999E;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 h6 {
     color: #66BFBF;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -51,7 +61,6 @@ a {
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: .5rem;
-    /* margin: 10px 20px; */
     text-decoration: none;
 }
 
@@ -67,14 +76,38 @@ a:hover {
     background-color: #445D7B;
 }
 
+.bg-dark {
+    background-color: #445D7B !important;
+}
+
 /* TITLE SECTION */
 #title {
     text-align: center;
 }
 
 .big-header {
+    font-size: 6rem;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.medium-header {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.small-header {
     font-size: 5.625rem;
     font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.section-header {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 4%;
 }
 
 .top-container {
@@ -89,7 +122,6 @@ a:hover {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 40px;
 }
 
 .bottom-cloud {
@@ -123,21 +155,22 @@ a:hover {
 
 .job-position {
     font-weight: bold;
+    color: #66BFBF;
 }
 
 .job-company {
     color: #66BFBF;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
-.skill-row {
+.experience-row {
     display: flex;
     width: 50%;
     padding: 3%;
     margin: auto;
 }
 
-.skill-row-description {
+.experience-row-description {
     padding-left: 20px;
     text-align: left;
     border-left: 1px solid #EAF6F6;
@@ -158,8 +191,18 @@ a:hover {
     float: right;
 }
 
+.job-resposible {
+    margin-top: 5%;
+    padding-left: 5%;
+}
+
+.job-resposible li {
+    margin: 3% 0;
+}
+
+
 /* responsive */
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .software-engineer {
         width: 40%;
     }
@@ -176,7 +219,7 @@ a:hover {
         width: 70%;
     }
 
-    .skill-row {
+    .experience-row {
         width: 80%;
         flex-direction: column;
         margin-bottom: 25px;
@@ -189,7 +232,7 @@ a:hover {
         margin: 0 auto 20px;
     }
 
-    .skill-row-description {
+    .experience-row-description {
         text-align: left;
         border-left: none;
     }
