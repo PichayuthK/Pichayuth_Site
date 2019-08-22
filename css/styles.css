@@ -1,8 +1,18 @@
+html, body {
+    width: 100vw;
+    /* overflow-x: hidden; */
+}
+
 body {
     color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
+    width: 100vw;
+}
+
+section {
+    padding: 0 2%;
 }
 
 h1 {
@@ -68,6 +78,10 @@ a:hover {
     color: #EAF6F6;
 }
 
+.row {
+    width: 100vw;
+}
+
 .medium-header {
     font-size: 2rem;
 }
@@ -107,7 +121,7 @@ a:hover {
 .section-header {
     font-size: 5rem;
     font-weight: bold;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
 }
 
 .top-container {
@@ -200,9 +214,46 @@ a:hover {
     margin: 3% 0;
 }
 
-
 /* responsive */
 @media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 1rem;
+    }
+
+    /* title */
+    .big-header {
+        font-size: 3.5rem;
+        margin: 0;
+    }
+
+    .medium-header {
+        font-size: 1.3rem;
+    }
+
+    .my-image {
+        width: 45%;
+    }
+
     .software-engineer {
         width: 40%;
     }
@@ -216,23 +267,38 @@ a:hover {
     }
 
     .self-description {
-        width: 70%;
+        width: 80%;
+        font-size: .9rem;
+    }
+
+    .section-header {
+        font-size: 2rem;
+    }
+
+    /* EXPERIENCE */
+    .job-position {
+        font-size: 1.3rem;
+    }
+
+    .job-company {
+        font-size: 1rem;
     }
 
     .experience-row {
-        width: 80%;
+        width: 100%;
         flex-direction: column;
-        margin-bottom: 25px;
+        margin: 0 0 25px 0;
     }
 
     .skill-img {
-        width: 25%;
-        height: 25%;
+        width: 35%;
+        height: 35%;
         justify-content: space-around;
         margin: 0 auto 20px;
     }
 
     .experience-row-description {
+        padding: 0;
         text-align: left;
         border-left: none;
     }
