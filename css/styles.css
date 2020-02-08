@@ -220,12 +220,12 @@ a:hover {
 
 /* SECTION Footer */
 .contact-footer {
-    padding: 10px 0;
+    padding: 10px 0 !important;
 }
 
 .contact-footer p {
     margin: 0;
-    color: #7c807f;
+    color: #7c807f !important;
 }
 
 .footer-contact-icon {
