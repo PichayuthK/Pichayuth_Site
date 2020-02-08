@@ -94,6 +94,16 @@ a:hover {
     background-color: #445D7B !important;
 }
 
+.blink_me {
+    animation: blinker 2s linear infinite;
+}
+  
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 /* TITLE SECTION */
 #title {
     text-align: center;
@@ -127,6 +137,7 @@ a:hover {
 .top-container {
     position: relative;
     padding-top: 100px;
+    padding-bottom: 5px;
 }
 
 .software-engineer {
