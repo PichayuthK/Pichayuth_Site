@@ -144,6 +144,10 @@ a:hover {
     bottom: 300px;
 }
 
+.download-cv-button{
+    font-weight: bold;
+}
+
 /* PROFILE section */
 #profile {
     text-align: center;
