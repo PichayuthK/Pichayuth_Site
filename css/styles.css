@@ -214,6 +214,21 @@ a:hover {
     margin: 3% 0;
 }
 
+/* SECTION Footer */
+.contact-footer {
+    padding: 10px 0;
+}
+
+.contact-footer p {
+    margin: 0;
+    color: #7c807f;
+}
+
+.footer-contact-icon {
+    margin: 2px 5px;
+    font-size: 1.5rem;
+}
+
 /* responsive */
 @media only screen and (max-width: 600px) {
     h1 {
