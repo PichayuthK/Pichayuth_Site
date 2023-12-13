@@ -17,3 +17,12 @@
   100% { transform: rotate( 0.0deg) }
 }
 
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
